@@ -415,51 +415,42 @@ section.advantages {
   padding: 60px 0;
   background-color: var(--dark-background);
 }
-
-.footer-container {
+.footer__container {
   display: flex;
-  gap: 70px;
+  justify-content: space-between;
 }
 
-.wrapper-logo {
+.logo__wrapper {
   max-width: 231px;
   margin-bottom: 20px;
 }
 
-.address-list {
+.footer__logo--white {
+  color: var(--text-dark-background);
+}
+
+.address {
   max-width: 231px;
   display: flex;
   flex-direction: column;
   gap: 9px;
 }
 
-.white {
-  color: var(--text-dark-background);
-}
-
-.address-list {
+.address__link {
   line-height: 1.7;
   text-decoration: none;
   color: var(--text-dark-background);
-}
-
-.address-item {
   transition-duration: color var(--transition-duration);
   transition-timing-function: color var(--transition-timing-function);
 }
-
-.address-item:hover,
-.address-item:focus {
+.address__link:hover, .address__link:focus {
   color: var(--accent-color);
 }
-
-.email,
-.phone {
+.address__link--color {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.social-title,
-.form-title {
+.footer__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -469,18 +460,18 @@ section.advantages {
   padding-top: 7px;
 }
 
-.social-media {
+.footer__social-media {
   max-width: 300px;
 }
 
-.social-icons {
+.social-media {
   display: flex;
   flex-wrap: nowrap;
   max-width: 300px;
   gap: 10px;
 }
 
-.link-svg {
+.social-media__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -490,25 +481,23 @@ section.advantages {
   border-radius: 50%;
   transition: background-color var(--transition-duration) var(--transition-timing-function);
 }
-
-.link-svg:hover,
-.link-svg:focus {
+.social-media__link:hover, .social-media__link:focus {
   background-color: var(--accent-color);
 }
 
-.social-icon {
+.social-media__icon {
   width: 20px;
   height: 20px;
   fill: var(--default-background);
 }
 
-.form-subscribe {
+.subscribe-form {
   display: flex;
   flex-direction: row;
   gap: 12px;
 }
 
-.form-input {
+.subscribe-form__input {
   width: 358px;
   height: 50px;
   padding: 15px 16px;
@@ -518,30 +507,26 @@ section.advantages {
   background-color: transparent;
   color: var(--text-dark-background);
 }
-
-.form-input::-moz-placeholder {
+.subscribe-form__input::-moz-placeholder {
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
 }
-
-.form-input:-ms-input-placeholder {
+.subscribe-form__input:-ms-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
 }
-
-.form-input::placeholder {
+.subscribe-form__input::placeholder {
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
 }
-
-.form-input:active {
+.subscribe-form__input:active {
   color: var(--text-dark-background);
 }
 
-.button-subscribe {
+.subscribe-form__button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -560,7 +545,7 @@ section.advantages {
   color: var(--text-dark-background);
 }
 
-.icon-send {
+.subscribe-form__pic {
   display: inline-block;
   vertical-align: middle;
   fill: var(--default-background);
