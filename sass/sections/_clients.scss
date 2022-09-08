@@ -1,0 +1,28 @@
+.clients-svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--icon-color);
+    border-radius: 4px;
+    transition: fill var(--transition-duration) var(--transition-timing-function);
+}
+
+.clients-icon {
+    width: 106px;
+    height: 60px;
+    fill: var(--icon-color);
+    transition: fill var(--transition-duration) var(--transition-timing-function),
+        border var(--transition-duration) var(--transition-timing-function);
+
+}
+
+.clients-svg:hover {
+    border: 1px solid var(--accent-color);
+}
+
+.clients-svg:hover .clients-icon,
+.clients-svg:focus .clients-icon {
+    fill: var(--accent-color);
+}

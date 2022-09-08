@@ -10,25 +10,32 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/styles.css">
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="./css/main.min.css">
+    <linkrel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <header class="header">
-        <div class="container header-container">
-            <a class="logo logo-header" href="./index.html">Web<span class="black">Studio</span></a>
+        <div class="container header__container">
+            <a class="logo header__logo" href="./index.html">Web<span class="header__logo--black">Studio</span></a>
             <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a class="nav-link nav-link-active" href="./index.html">Студія</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./portfolio.html">Портфоліо</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Контакти</a></li>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a class="nav__link nav__link--active" href="./index.html">Студія</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="./portfolio.html">Портфоліо</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">Контакти</a>
+                    </li>
                 </ul>
             </nav>
-            <div>
-                <ul class="nav-contacts">
-                    <li class="contacts-item">
-                        <a class="contacts-icon"
+            <div class="contacts">
+                <ul class="contacts__list">
+                    <li class="contacts__item">
+                        <a class="contacts__icon"
                             href="mailto:info@devstudio.com"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -40,8 +47,8 @@
                             info@devstudio.com
                         </a>
                     </li>
-                    <li class="contacts-item">
-                        <a class="contacts-icon"
+                    <li class="contacts__item">
+                        <a class="contacts__icon"
                             href="tel:+380961111111"
                             target="_blank"
                             rel="noopener noreferrer"
