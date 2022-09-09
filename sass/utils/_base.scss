@@ -92,7 +92,7 @@ body {
     padding: 94px 0;
 }
 
-.section-title {
+.section__title {
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
@@ -100,7 +100,7 @@ body {
     color: var(--primary-title-color);
 }
 
-.section-list {
+.section__list {
     display: flex;
     gap: 30px;
 }
