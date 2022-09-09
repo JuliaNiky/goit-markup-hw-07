@@ -249,7 +249,7 @@ a.logo {
   color: var(--text-dark-background);
 }
 
-.advantages__section {
+.advantages {
   padding-bottom: 0;
 }
 
@@ -318,7 +318,7 @@ a.logo {
   color: var(--text-dark-background);
 }
 
-.team__section {
+.team {
   background-color: var(--light-background);
 }
 
